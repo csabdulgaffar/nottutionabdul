@@ -35,9 +35,9 @@ const Carousel = () => {
     };
 
     // Go to a specific image
-    const goToSlide = (index) => {
-        setCurrentIndex(index);
-    };
+ const goToSlide = (index: number) => {
+    setCurrentIndex(index);
+};
 
     return (
         <div className="relative w-full h-96 overflow-hidden rounded-lg shadow-2xl">
