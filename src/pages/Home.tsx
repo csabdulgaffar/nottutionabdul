@@ -1,5 +1,14 @@
 import Carousel from "../components/Carousel"
 
+import { FaUsers } from "react-icons/fa";
+import { MdStarRate } from "react-icons/md";
+import { MdLeaderboard } from "react-icons/md";
+import { GiTrophy } from "react-icons/gi";
+import { FaAngleDoubleRight } from "react-icons/fa";
+import { FaPeopleGroup } from "react-icons/fa6";
+
+
+
 
 function Home() {
   return (
@@ -31,25 +40,25 @@ function Home() {
       <div className="grid grid-cols-4 gap-6 py-20 mt-5 mb-5">
 
         <div className="flex flex-col gap-2 text-center">
-          <div className="text-5xl block mx-auto font-bold animate-shining">A</div>
+          <div className="text-5xl block mx-auto font-bold animate-shining"><FaUsers /></div>
           <div className="text-xl font-bold ">Used by 10,000+ users</div>
           <div className="para-primary">Our customer use our password manager to store and protect passwords in ecrypted form</div>
         </div>
 
         <div className="flex flex-col gasp-2 text-center">
-          <div className="text-5xl block mx-auto font-bold">A</div>
+          <div className="text-5xl block mx-auto font-bold"><MdStarRate /></div>
           <div className="text-xl font-bold ">Rating 4.8+</div>
           <div className="para-primary">Our customer are Happy with our product. Ratings are based on our customer feedback</div>
         </div>
 
         <div className="flex flex-col gap-2 text-center">
-          <div className="text-5xl block mx-auto font-bold">A</div>
+          <div className="text-5xl block mx-auto font-bold"><MdLeaderboard /></div>
           <div className="text-xl font-bold ">Leader in Password Management</div>
           <div className="para-primary">Adopted by proffesionals and organization for storing passwords</div>
         </div>
 
         <div className="flex flex-col gap-2 text-center">
-          <div className="text-5xl block mx-auto font-bold">A</div>
+          <div className="text-5xl block mx-auto font-bold"><GiTrophy /></div>
           <div className="text-xl font-bold ">Best Award</div>
           <div className="para-primary">Our Application won the best software applicaiton award 2024</div>
         </div>
@@ -63,7 +72,8 @@ function Home() {
       <div>
         <div className="grid grid-cols-2 bg-background py-15 px-10 text-white ">
           <div className="font-bold grid grid-cols-1 items-center mx-auto size-full ">
-            <div className="text-9xl mx-auto inline-block  animate-flip w-48">                    A
+            <div className="text-9xl mx-auto inline-block  animate-flip w-48">
+              <FaPeopleGroup />
             </div>
 
           </div>
@@ -74,8 +84,7 @@ function Home() {
             <div className=" py-2 flex flex-col items center gap-6">
               <div className="flex gap-2 items-center">
                 <div>
-                  A
-
+                  <FaAngleDoubleRight />
                 </div>
                 <div className="text-justify w-3/4">
                   Make it easy for users to securely access and share apps not protected by SSO and sensitive info.
@@ -84,8 +93,7 @@ function Home() {
               </div>
               <div className="flex gap-2 items-center">
                 <div  >
-                  A
-
+                  <FaAngleDoubleRight />
                 </div>
                 <div className="text-justify w-3/4">
                   Scale adoption with automation and proactively monitor company-wide password health.
@@ -93,7 +101,7 @@ function Home() {
               </div>
               <div className="flex gap-2 items-center">
                 <div >
-                  A
+                  <FaAngleDoubleRight />
 
                 </div>
                 <div className="text-justify w-3/4" >
@@ -121,7 +129,7 @@ function Home() {
 
             <div className="flex gap-2 items-center p-3">
               <div>
-                AA
+                <FaAngleDoubleRight />
 
               </div>
               <div className="">
@@ -132,7 +140,7 @@ function Home() {
             </div>
             <div className="flex gap-2 items-center p-3">
               <div>
-                AA
+                <FaAngleDoubleRight />
 
               </div>
               <div>
@@ -144,7 +152,7 @@ function Home() {
             </div>
             <div className="flex gap-2 items-center p-3">
               <div>
-                AA
+                <FaAngleDoubleRight />
 
               </div>
               <div>
@@ -157,8 +165,8 @@ function Home() {
             </div>
           </div>
 
-          <div className="text-center">
-            <img src="../assets/images/sample.jpg" alt="aa" />
+          <div className="text-9xl mx-auto inline-block  animate-flip w-48">
+            <FaPeopleGroup />
           </div>
 
         </div>

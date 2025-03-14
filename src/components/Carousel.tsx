@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react';
 
-
-
-
+import image1 from "../assets/images/carousel1.jpg"
+import image2 from "../assets/images/carousel2.jpg"
 
 const images = [
-    'https://picsum.photos/seed/picsum/600/600?random=1',
-    'https://picsum.photos/seed/picsum/600/600?random=3',
-    'https://picsum.photos/seed/picsum/600/600?random=2',
+    image1,
+    image2,
 ];
 
 const Carousel = () => {
@@ -35,9 +33,9 @@ const Carousel = () => {
     };
 
     // Go to a specific image
- const goToSlide = (index: number) => {
-    setCurrentIndex(index);
-};
+    const goToSlide = (index: number) => {
+        setCurrentIndex(index);
+    };
 
     return (
         <div className="relative w-full h-96 overflow-hidden rounded-lg shadow-2xl">

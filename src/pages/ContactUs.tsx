@@ -1,4 +1,4 @@
-import map from "../assets/images/sample.jpg";
+import map from "../assets/icons/map.png";
 
 function ContactUs() {
   return (
