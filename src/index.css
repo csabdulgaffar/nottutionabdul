@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.heading {
+  @apply text-[1.5em] leading-[1.2] font-bold text-primary py-2;
+}
+
+.active-class {
+  @apply font-bold
+}
+
+.subheading {
+  @apply text-[1.1em] leading-[1.33] font-semibold text-primary py-1;
+}
+
+.button-light {
+  @apply inline-block px-5 py-3 mb-3 rounded-[6px] text-primary cursor-pointer bg-white border border-gray-300 hover:bg-gray-100 transition-all duration-100;
+}
+
+.button-dark {
+  @apply px-5 inline-block py-3 mb-3 rounded-[6px] text-white bg-background hover:bg-gray-700 transition-all duration-100 cursor-pointer;
+}
+
+.para-primary {
+  @apply text-[16px] leading-[1.5] text-primary;
+}
+
+.para-secondary {
+  @apply text-[14px] leading-[1.5] text-primary;
+}
+
+.para-tertiary {
+  @apply text-[14px] leading-[1.5] text-secondary;
+}
+
+
+
+.offwhite {
+  @apply text-gray-50;
+}
+
+@theme {
+  --color-primary: #3C4852;
+  --color-secondary: #7A8B94;
+  --color-accentblue: #2d81f7;
+
+  --color-base-0: #FCFCFC;
+  --color-base-1: #FFFFFF;
+  --color-background: #3C4852;
+
+  --font-inter: "Inter",
+}
