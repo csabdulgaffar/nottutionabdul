@@ -1,4 +1,4 @@
-import animation from "../assets/images/carousel2.jpg"
+import animation from "/images/carousel2.jpg"
 function OurFeatures() {
   return (
     <div className="text-center py-3">

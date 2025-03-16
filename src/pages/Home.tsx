@@ -13,9 +13,6 @@ import map from '../assets/icons/map.png'
 
 
 
-
-
-
 function Home() {
   return (
 
