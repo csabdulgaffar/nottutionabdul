@@ -26,7 +26,7 @@ function Home() {
       <div className=" relative ">
         <div
           className="h-screen w-full bg-cover bg-center"
-          style={{ backgroundImage: "url('/src/assets/images/topbanner.jpg')" }}
+          style={{ backgroundImage: "url('/images/topbanner.jpg')" }}
         ></div>
       </div>
       {/* sections */}
